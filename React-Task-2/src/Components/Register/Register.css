@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.register {
+  font-size : 16px;
+  width: 40%;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  background-color: #232323;
+}
+
+.tringapps-register {
+  font-size: 16px;
+}
+
+.tringapp-logo{
+  color: #ffffff;
+  padding: 20px;
+}
+
+.container-reg{
+  height: 100vh;
+}
+
+.switch-buttons-reg {
+  display: flex;
+  justify-content: center;
+}
+
+.switch-buttons-reg span {
+  font-family: Rajdhani;
+  font-weight: 600;
+  padding: 10px 20px;
+  gap: 10px;
+  font-size: 24px;
+  background: #eba832;
+  color: white;
+}
+
+
+.input-data-reg {
+  margin: 30px 80px;
+  color: white;
+}
+
+.input-data-reg label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.input-data-reg input,
+.input-data-reg select {
+  background: #292929;
+  /* border: 1px solid #FFFFFF33; */
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 15px;
+  background: #333;
+  border: none;
+  color: white;
+  border: 1px solid #ffffff33;
+}
+.input-data-reg > input::placeholder {
+  color: #bbb;
+}
+
+.input-data-reg .phone-no {
+  display: flex;
+  gap: 15px;
+}
+.input-data-reg .phone-no select {
+  width: 30%;
+}
+.input-data-reg .phone-no input {
+  width: 70%;
+}
+
+
+.submit-btn-reg {
+  font-family: "Open sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.79px;
+  background: #eba832;
+  padding: 10px 32px;
+  border: none;
+}
+
+.button-submit{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup {
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.signup a {
+  color: #eba832;
+  text-decoration: none;
+}

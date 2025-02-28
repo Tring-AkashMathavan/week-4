@@ -1,0 +1,88 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login {
+    font-size : 16px;
+    width: 40%;
+    height: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-left: auto;
+    background-color: #292929;
+}
+
+.container-login {
+    background-color: #292929;
+    color: #FFFFFF;
+    padding:40px 80px;
+}
+
+.nav-login{
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.switch-buttons-login{
+    margin: 20px 0px;
+    text-align: center;
+}
+.switch-buttons-login span {
+    font-family: Rajdhani;
+  font-weight: 600;
+  padding: 10px 20px;
+  gap: 10px;
+  font-size: 24px;
+  background: #eba832;
+  color: white;
+  
+}
+
+.container-login input {
+    background: #292929;
+    border: 1px solid #FFFFFF33;
+    width: 100%;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+    background: #333;
+    border: none;
+    color: white;
+    border: 1px solid #FFFFFF33
+}
+
+.container input::placeholder {
+    color: #bbb;
+}
+
+.button-login{
+    text-align: center;
+}
+
+.button-login button{
+    font-family: "Open sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+    background: #eba832;
+    padding: 10px 32px;
+    margin: 20px 0px;
+    border: none;
+}
+
+.login-submit a{
+    color: #eba832;
+    text-decoration: none;
+}
+
